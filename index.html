@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SK UPVC Windows and Doors | Coimbatore</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+:root{
+--gold:#d4af37;
+--gold-soft:#f3d98b;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0a0a0a;
+color:#e5e7eb;
+}
+
+/* HEADER */
+header{
+background:linear-gradient(120deg,#000,#111);
+padding:60px 20px;
+text-align:center;
+border-bottom:1px solid rgba(212,175,55,0.3);
+}
+
+header h1{
+font-family:'Playfair Display',serif;
+font-size:46px;
+color:var(--gold-soft);
+}
+
+header p{color:#9ca3af;margin-top:8px}
+
+/* NAV */
+nav{
+background:#020617;
+padding:18px;
+text-align:center;
+border-bottom:1px solid rgba(212,175,55,0.25);
+}
+
+nav a{
+color:#e5e7eb;
+margin:0 18px;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{color:var(--gold)}
+
+/* HERO PREMIUM */
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:radial-gradient(circle at top,rgba(212,175,55,0.15),transparent 40%),
+linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9)),
+url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:48px;
+font-family:'Playfair Display',serif;
+color:var(--gold-soft);
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:650px;
+color:#d1d5db;
+}
+
+.btn{
+margin-top:30px;
+padding:14px 36px;
+background:var(--gold);
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* SECTION */
+section{
+padding:80px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section-title{
+font-family:'Playfair Display',serif;
+font-size:34px;
+text-align:center;
+margin-bottom:40px;
+color:var(--gold-soft);
+}
+
+/* ABOUT */
+.about p{
+max-width:760px;
+margin:auto;
+text-align:center;
+line-height:1.7;
+color:#d1d5db;
+}
+
+/* SERVICES */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:25px;
+}
+
+.service-card{
+background:#020617;
+padding:35px;
+border-radius:12px;
+border:1px solid rgba(212,175,55,0.2);
+text-align:center;
+transition:0.35s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+border-color:var(--gold);
+box-shadow:0 10px 30px rgba(212,175,55,0.2);
+}
+
+.service-card h3{color:var(--gold-soft)}
+
+/* STATS */
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+text-align:center;
+margin-top:40px;
+}
+
+.stat-box{
+padding:30px;
+background:#020617;
+border-radius:12px;
+border:1px solid rgba(212,175,55,0.25);
+}
+
+.stat-number{
+font-size:38px;
+font-weight:700;
+color:var(--gold);
+}
+
+/* SLIDING GALLERY */
+.slider{
+position:relative;
+overflow:hidden;
+}
+
+.slides{
+display:flex;
+animation:slide 20s infinite;
+}
+
+.slides img{
+width:100%;
+max-width:400px;
+margin-right:20px;
+border-radius:12px;
+}
+
+@keyframes slide{
+0%{transform:translateX(0)}
+25%{transform:translateX(-420px)}
+50%{transform:translateX(-840px)}
+75%{transform:translateX(-1260px)}
+100%{transform:translateX(0)}
+}
+
+/* WHY */
+.why{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.why-box{
+background:#020617;
+padding:30px;
+border-radius:12px;
+border:1px solid rgba(212,175,55,0.25);
+text-align:center;
+}
+
+.why-box h4{color:var(--gold-soft)}
+
+/* CONTACT */
+.contact{
+text-align:center;
+background:#020617;
+padding:70px 20px;
+border-top:1px solid rgba(212,175,55,0.25);
+}
+
+.contact h2{color:var(--gold-soft)}
+
+.contact p{color:#9ca3af}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:16px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 6px 18px rgba(0,0,0,0.4);
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+color:#6b7280;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>SK UPVC Windows and Doors</h1>
+<p>Luxury UPVC Solutions in Coimbatore</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#why">Why Choose Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Premium UPVC Doors & Windows</h2>
+<p>Luxury design. Durable materials. Professional installation.</p>
+<a class="btn" href="#contact">Get a Quote</a>
+</div>
+
+<section id="about" class="about">
+<h2 class="section-title">About Our Company</h2>
+<p>SK UPVC Windows and Doors is a trusted UPVC installation company based in Thondamuthur, Coimbatore. We specialize in designing and installing high‑quality UPVC doors, windows, sliding systems, and mosquito mesh solutions for homes, apartments, and commercial spaces. Our mission is to provide customers with modern designs, long‑lasting durability, and affordable pricing.</p>
+
+<p>With years of hands‑on experience in the industry and thousands of completed projects, our team focuses on precision measurement, strong materials, and clean professional installation. Every project is handled with attention to detail so that customers receive windows and doors that are stylish, secure, and built to last.</p>
+
+<p>At SK UPVC Windows and Doors, we believe that good design improves comfort and value for every home. That is why we combine quality materials, expert workmanship, and reliable service to deliver results that our customers can trust.</p>
+</section>
+
+<section>
+<h2 class="section-title">Our Experience</h2>
+
+<div class="stats">
+<div class="stat-box">
+<div class="stat-number">8000+</div>
+<p>Projects Completed</p>
+</div>
+
+
+
+<div class="stat-box">
+<div class="stat-number">10+</div>
+<p>Years Experience</p>
+</div>
+
+<div class="stat-box">
+<div class="stat-number">100%</div>
+<p>Customer Satisfaction</p>
+</div>
+</div>
+</section>
+
+<section id="services">
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+<div class="service-card"><h3>UPVC Doors</h3></div>
+<div class="service-card"><h3>UPVC Windows</h3></div>
+<div class="service-card"><h3>Open Windows</h3></div>
+<div class="service-card"><h3>Mosquito Net Windows</h3></div>
+<div class="service-card"><h3>Sliding Windows</h3></div>
+<div class="service-card"><h3>Washroom Louver Windows</h3></div>
+<div class="service-card"><h3>Interior Installations</h3></div>
+</div>
+
+</section>
+<section id="gallery">
+<h2 class="section-title">Luxury Gallery</h2>
+
+<div class="slider">
+<div class="slides">
+
+<img src="skimages/img1.jpg" alt="UPVC window project">
+<img src="skimages/img2.jpg" alt="UPVC door installation">
+<img src="skimages/img3.jpg" alt="Sliding window project">
+<img src="skimages/img4.jpg" alt="Mosquito mesh window">
+<img src="skimages/img5.jpg" alt="Washroom louver window">
+
+</div>
+</div>
+
+</section>
+<section id="why">
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="why">
+<div class="why-box">
+<h4>Premium Materials</h4>
+<p>We use high quality UPVC for durability and long life.</p>
+</div>
+
+<div class="why-box">
+<h4>High Durability</h4>
+<p>Our doors and windows are built to last for many years without damage.</p>
+</div>
+
+<div class="why-box">
+<h4>Low Price</h4>
+<p>Affordable pricing with high quality installation and materials.</p>
+</div>
+
+<div class="why-box">
+<h4>Expert Installation</h4>
+<p>Professional fitting ensuring perfect finishing.</p>
+</div>
+
+<div class="why-box">
+<h4>Modern Designs</h4>
+<p>Elegant doors and windows for modern homes.</p>
+</div>
+
+<div class="why-box">
+<h4>Trusted Service</h4>
+<p>Reliable workmanship and customer satisfaction.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p><strong>SK UPVC Windows and Doors</strong></p>
+<p><a href="https://www.google.com/maps/search/?api=1&query=121+Madham+Pattii+Road+Near+Syndicate+Bank+Thondamuthur+Tamil+Nadu+641109" target="_blank" style="color:#d4af37;text-decoration:none;">121, Madham Pattii Road, Near Syndicate Bank, Thondamuthur, Tamil Nadu 641109</a></p>
+<p>Phone 1 / WhatsApp: +91 9087759995</p>
+<p>Phone 2 / WhatsApp: +91 9042594450</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/919087759995" target="_blank" aria-label="WhatsApp">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white">
+<path d="M20.52 3.48A11.86 11.86 0 0012.06 0C5.46 0 .1 5.36.1 11.97c0 2.11.55 4.16 1.6 5.97L0 24l6.21-1.63a11.9 11.9 0 005.85 1.49h.01c6.6 0 11.96-5.36 11.96-11.97 0-3.19-1.24-6.19-3.51-8.41zM12.07 21.4c-1.8 0-3.55-.48-5.08-1.39l-.36-.21-3.69.97.99-3.6-.23-.37a9.4 9.4 0 01-1.44-5.01c0-5.19 4.22-9.41 9.41-9.41 2.51 0 4.86.98 6.63 2.75a9.33 9.33 0 012.75 6.65c0 5.19-4.22 9.41-9.38 9.41zm5.17-7.05c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.19-.44-2.27-1.4-.84-.75-1.41-1.67-1.58-1.95-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34s-.96.94-.96 2.29.99 2.66 1.13 2.85c.14.18 1.95 2.98 4.73 4.18.66.28 1.18.45 1.59.58.67.21 1.28.18 1.76.11.54-.08 1.65-.67 1.88-1.31.23-.64.23-1.18.16-1.31-.07-.13-.25-.21-.53-.35z"/>
+</svg>
+</a>
+
+<footer>
+<p>© 2026 SK UPVC Windows and Doors</p>
+</footer>
+
+</body>
+</html>
+
+
